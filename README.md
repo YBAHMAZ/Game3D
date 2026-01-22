@@ -115,7 +115,7 @@ make re         # rebuild everything
 ```
 ## NOTE
 
-In the *map.cub* file, for each direction, you can use any image.
+In the `map.cub` file, for each direction, you can use any image.
 When selecting an image, you must convert it to XPM format (there are websites that can do this).
-After converting the image to XPM, place it in the *textures* directory.
-Then copy its path and use it in the *map.cub* file.
+After converting the image to XPM, place it in the `textures` directory.
+Then copy its path and use it in the `map.cub` file.
