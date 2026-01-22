@@ -113,7 +113,7 @@ make clean      # remove object files
 make fclean     # remove object files and binary
 make re         # rebuild everything
 ```
-# NOTE
+## NOTE
 
 In the *map.cub* file, for each direction, you can use any image.
 When selecting an image, you must convert it to XPM format (there are websites that can do this).
