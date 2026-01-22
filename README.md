@@ -79,10 +79,9 @@ C 225,30,0<br>
 ## 🔧 Build Instructions
 
 ### Requirements
-- Unix-like OS (Linux or macOS)
+- Unix-like OS: MacOS
 - `gcc`, `make`
 - `MiniLibX` library (included or system-installed)
-- `libft` (included in `./libft/`)
 
 ### 🧠 Learning Objectives
 Deepen understanding of 2D to 3D projection<br>
@@ -100,7 +99,7 @@ Youssef Bahmaz<br>
 
 Project developed at 42 Network<br>
 
-📄 License
+📄 License<br>
 This project is for educational purposes as part of the 42 curriculum and follows fair use principles for any referenced material.
 
 ### Compile & Run The Project
@@ -113,4 +112,10 @@ make && ./cub3D path/to/map.cub
 make clean      # remove object files
 make fclean     # remove object files and binary
 make re         # rebuild everything
+```
+# NOTE
 
+In the *map.cub* file, for each direction, you can use any image.
+When selecting an image, you must convert it to XPM format (there are websites that can do this).
+After converting the image to XPM, place it in the *textures* directory.
+Then copy its path and use it in the *map.cub* file.
